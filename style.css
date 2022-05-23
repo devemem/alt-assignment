@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+header{
+    background-image: linear-gradient(180deg, rgba(12, 125, 212, 0.447), rgb(219, 228, 231));
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    padding-top: 1vh;
+    margin-left: 40vh;
+}
+
+a:link {
+    text-decoration: none;
+}
+#nav:hover {
+    text-decoration: none;
+    background-color: rgb(218, 236, 245);
+    color: rgba(12, 125, 212, 0.447);;
+}
+a:hover {
+    text-decoration: none;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+#nav{
+    display: flexbox;
+    padding: 3vh;
+    margin: 1vh;
+    border-radius: 30px;
+    color: rgb(221, 239, 248);
+    
+}
+
+#name{
+    color: rgba(46, 50, 53, 0.951);
+    font-size: 30px;
+}
+
+.name{
+    margin: 3vh;
+    margin-bottom: -5px;
+}
+#name2{
+    color: rgba(46, 50, 53, 0.951);
+    font-size: 25px;
+}
+
+.sentence{
+    display: flex;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.goals-div{
+    background-color: rgba(0, 0, 0, 0.37);
+    margin: 1vh;
+    padding: 4vh;
+}
+
+.goals{
+    padding-bottom: 2vh;
+}
+
+#goals{
+    margin: 1vh;
+}
+
+.education-div{
+    margin: 1vh;
+    padding: 2vh;
+}
+
+#education{
+    margin: 1vh;
+}
+
+.experience-div{
+    margin: 1vh;
+    padding: 2vh;
+}
+
+#experience{
+    margin: 1vh;
+}
+
+.hobbies{
+    margin: 1vh;
+    padding: 2vh; 
+}
+
+#hobbies{
+    margin: 1vh;
+}
+
+.contacts{
+    margin: 2vh;
+    padding: 5vh;
+}
+
+#contact{
+    margin: 1.5vh;
+}
+
+.a{
+    margin: 1vh;
+}
+
+input,textarea,select{
+    border: none;
+    box-shadow: rgba(57, 56, 56, 0.222) 0px 1px 1px 1px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+textarea{
+    margin-top: 8px;
+    padding-bottom: 4px;
+}
+
+label{
+    padding: 3px;
+}
+
+select{
+    margin: 1vh;
+}
+option{
+    background-color: rgba(50, 50, 50, 0.62);
+}
+.priority{
+    margin-top: 8px;
+}
+#submit{
+    margin-left: 10vh;
+    padding: 10px;
+    margin-top: 6vh;
+}
+
+#submit:hover{
+    background-color: gray;
+    box-shadow: rgba(26, 26, 26, 0.711) 0px 2px 0px 2px;
+    color: white;
+}
+
+.form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form{
+    border: 1px black solid;
+    margin: 3vh;
+    padding: 8vh;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    margin: 1vh;
+    margin-top: 3vh;
+    margin-left: 90vh;
+}
+#head{
+    color-scheme: inherit;
+    color: rgba(0, 0, 0, 0.705);
+}
