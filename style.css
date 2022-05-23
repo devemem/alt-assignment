@@ -184,3 +184,12 @@ form{
     color-scheme: inherit;
     color: rgba(0, 0, 0, 0.705);
 }
+
+#calc{
+    padding: 15px;
+    margin: 8px;
+}
+
+#calc:hover{
+    opacity: 0.5;
+}
